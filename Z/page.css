@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .brand span {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px; /* Adjust spacing between navigation items */
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0; /* Remove margin for the first navigation item */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .content {
+    /* Add margin or padding to your content to avoid being overlapped by the fixed navbar */
+    margin-top: 50px; /* Adjust this value as needed */
+    /* Other styles for your content */
+  }
+  

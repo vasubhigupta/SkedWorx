@@ -1,0 +1,31 @@
+.main{
+background-color: rgb(7, 7, 38);
+display: grid;
+place-items: center;
+border: 3px;
+padding: 20px;
+background-color: black;
+width: fit-content;
+border-radius: 10px;
+margin-left: 35%;
+margin-top: 5%;
+}
+.display{
+    height: 30px;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 370px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn{
+    background-color: rgb(7, 7, 33);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    width: 92px;
+    padding: 5px;
+    margin: 2px 0px;
+}
